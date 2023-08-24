@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+    background-color: transparent;
+
+    width: 1vw;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(201, 81, 201), rgb(2, 2, 242), aqua);
+    border-radius: 2vw;
+
+
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6vw;
+    background-color: rgb(10, 10, 71);
+}
+
+nav .left {
+    font-size: 2vw;
+
+}
+
+nav .left:hover {
+    color: purple;
+    cursor: default;
+}
+
+nav .left::selection {
+    color: rgb(8, 139, 183);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 2vw;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 1vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8vw;
+}
+
+nav ul li a:hover {
+    color: rgb(79, 94, 228);
+}
+
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 3vw 5vw;
+    align-items: center;
+
+}
+
+.firstsection .leftsection {
+    /* width: 30%; */
+    font-size: 4vw;
+}
+
+.firstsection .leftsection span::selection {
+    color: aqua;
+}
+
+
+.leftsection .btn {
+    background-color: purple;
+    border: 0;
+    border-radius: 10vw;
+    padding: 1vw;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn a:hover {
+    color: rgb(118, 128, 224);
+}
+
+
+
+.rightsection img {
+    /* margin-top: 2vw; */
+    height: 33vw;
+    width: 43vw;
+
+}
+
+main hr {
+    margin: 20px 0px;
+    border: 0;
+    background: rgb(15, 23, 98);
+    height: 1.2px;
+}
+
+.purple {
+    color: rgb(241, 97, 241);
+}
+
+#element {
+    color: rgb(241, 97, 241);
+}
+
+
+.aboutsection {
+    margin: 3vw 6vw;
+
+}
+
+.aboutsection h3 {
+    text-align: center;
+    
+}
+.aboutsection .aboutme{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutsection p{
+    font-size: 1.5vw;
+}
+ .aboutsection .about-img img{
+    height: 30vw;
+    width: 28vw;
+
+}
+
+.aboutsection ul {
+    margin: 1vw 3vw;
+    font-size: 1.4vw;
+}
+
+.aboutsection ul li span {
+    color: aqua;
+}
+
+
+.skillSection {
+    margin: 2vw 6vw;
+    align-items: center;
+
+}
+
+.skillSection h3 {
+    text-align: center;
+}
+
+.skillSection .technicalskill h3,
+.otherskill h3 {
+    color: aqua;
+    font-size: 1.5vw;
+}
+
+.skillSection .skills .technicalskill .skillr1 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.skillSection .skills .technicalskill img {
+    height: 10vw;
+    align-items: center;
+}
+
+.skillSection .skills .technicalskill .html {
+    align-items: center;
+}
+
+.skillSection .skills .skillr2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.skillSection .technicalskill {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.skillSection .skills h3 {
+    text-align: left;
+    margin-left: 6vw;
+}
+
+.skillSection .otherskill {
+    font-size: 1.5vw;
+}
+
+.skillSection .otherskill ul {
+    margin: 1vw 15vw;
+
+}
+
+
+.projectsection {
+    margin: 3vw 6vw;
+}
+
+.projectsection h3 {
+    text-align: center;
+}
+.projectsection .row{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw;
+}
+.projectsection .row .projectrow{
+    border: 1px solid rgb(152, 152, 211);
+    font-size: 1.5vw;
+    text-align: center;
+    border-radius: 1vw;
+}
+.projectrow img{
+    margin: 1vw;
+    width: 30vw;
+    height: 25vw;
+    border-radius: .4vw;
+}
+.projectrow a{
+    text-decoration: none;
+    color: white;
+}
+.projectrow a:hover{
+    color: #717acb;
+}
+
+
+.contactsection {
+    margin: 3vw 6vw;
+}
+
+.contactsection h3 {
+    text-align: center;
+}
+
+.contactsection fieldset {
+    text-align: center;
+    border: .19vw solid #0F1762;
+
+}
+
+.contactsection fieldset form {
+    color: aqua;
+}
+
+.contactsection fieldset form label {
+    padding-right: .1vw;
+}
+
+.contactsection fieldset form input {
+    background-color: transparent;
+    border: 1.4px solid rgb(9, 248, 184);
+    color: rgb(46, 103, 200);
+    border-radius: .4vw;
+}
+
+.contactsection fieldset form ::placeholder {
+    color: rgb(92, 109, 88);
+}
+
+.contactsection fieldset form label {
+    vertical-align: top;
+    font-size: medium;
+}
+
+.contactsection fieldset form textarea {
+    background-color: transparent;
+    border: 1.4px solid rgb(52, 240, 190);
+    color: rgb(46, 103, 200);
+    border-radius: .4vw;
+}
+
+.contactsection fieldset form button {
+    color: aqua;
+    background-color: transparent;
+    border-radius: 1vw;
+    border: 1.4px solid rgb(52, 240, 190);
+    padding: .4vw;
+    font-size: 1rem;
+}
+
+.projects{
+
+     font-size: 15px;
+}
+
+
+
+footer {
+    background-color: rgb(21, 15, 64);
+
+
+}
+
+.footer {
+    display: flex;
+    padding: 1.5vw;
+    justify-content: space-around;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer-first {
+    width: 10vw;
+    font-size: 1.7vw;
+}
+
+.footer-second {
+    font-size: 1.5vw;
+}
+
+.footer-second ul li a {
+    text-decoration: none;
+    color: white;
+    width: 4vw;
+}
+
+.footer-second ul li a:hover {
+    color: rgb(118, 128, 224);
+}
+
+.footer-third {
+    width: 35vw;
+    font-size: 1.5vw;
+}
+
+.footer-third ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-rights {
+    text-align: center;
+    color: gray;
+
+}
+
+@media (max-width:700px) {
+    .firstsection {
+        flex-direction: column;
+    }
+
+    nav .left {
+        font-size: 3vw;
+    }
+
+    .rightsection img {
+        width: 65vw;
+        height: 50vw;
+    }
+
+    .firstsection .leftsection .button .btn {
+        font-size: 3vw;
+
+        padding: 1vw;
+    }
+    .aboutsection h3{
+        font-size: 3vw;
+    }
+    .skillSection h3{
+        font-size: 3vw;
+    }
+    .skillSection .skills .technicalskill h3{
+        font-size: 2.4vw;
+    }
+    .skillSection .skills .technicalskill {
+        display: flex;
+        flex-direction: column;
+        font-size: 2vw;
+    }
+
+    
+
+    .skillSection ul {
+        margin: 1vw 15vw;
+        font-size: 2vw;
+
+    }
+    .skillSection .skills .otherskill h3{
+        font-size: 2.4vw;
+    }
+    .skillSection .skills .otherskill {
+        display: flex;
+        flex-direction: column;
+        font-size: 2.4vw;
+    }
+
+    .projectsection h3{
+        font-size: 3vw;
+    }
+
+.projectsection .row .projectrow{
+    font-size: 2.4vw;
+}
+
+.projectsection .row{
+flex-direction: column;
+width: 100%;
+}
+.projectsection .projectrow img{
+    width: 80vw;
+    height: 50vw;
+    margin-top: 2vw;
+}
+
+    .contactsection h3{
+        font-size: 4vw;
+    }
+    .contactsection fieldset form label{
+        font-size: small;
+    }
+
+    .footer-rights {
+        font-size: 1.7vw;
+    }
+
+
+}
